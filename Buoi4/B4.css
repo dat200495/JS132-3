@@ -9,6 +9,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     box-sizing: border-box;
+    padding-bottom: 10px;
 }
 .nav-item {
     display: inline-block;
@@ -68,9 +69,33 @@ h1 {
     display:flex;
     flex-direction: row;
     justify-content: center;
+    color: #5CB85C;
 }
 .summit {
     background-color: #5CB85C;
     position: relative;
     float: right;
+}
+.baner-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fff;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}   
+.baner-decrip {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #fff;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.baner {
+    background-color: #5CB85C;
+    margin-top: 0px;
+    margin-bottom: 16px;
 }
