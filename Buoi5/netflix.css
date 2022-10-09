@@ -46,13 +46,18 @@ body {
     width: 100%;
 }
 .bnt {
-    margin-top: 36px;
+    margin-top: 20px;
     height: 50px;
     border-radius: 3px;
     background-color: #D22F27;
     color: white;
     font-size: 16px;
     width: 321px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+.bnt:active {
+    scale: 0.96;
 }
 .bnt-remember {
     display: flex;
@@ -157,3 +162,30 @@ select {
     background-color: rgba(0, 0, 0, 0);
     color: #737373;
 }
+
+.lg-card_form-input:focus ~ label {
+    transform: translateY(-16px);
+    font-size: 11px;
+}
+.lg-card_form-input:not(:placeholder-shown) ~ label {
+    transform: translateY(-16px);
+    font-size: 11px;
+}
+.lg-card_form-input ~ label {
+    transition: 0.15s;
+}
+
+/* .lg-card_DN  ~ label {
+    opacity: 0;
+    visibility: hidden;
+} */
+
+
+.lg-card_form-input::placeholder {
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* .recapcha-bnt, select {
+    text-transform: none;
+} */
