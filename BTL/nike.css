@@ -1,0 +1,422 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.menu-bar {
+    background-color: #DAD8DD;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding-left: 36px;
+    padding-right: 38px;
+}
+.menu-bar_item {
+    display: inline-block;
+    box-sizing: inherit;
+    padding-top: 3px;
+    padding-left: 1px;
+    padding-right: 10px;
+    margin: 0px;
+    font-size: 12px;
+    color: color #111;
+}
+.sub-menu {
+    margin-top: 20px;
+}
+.n2-logo {
+    padding-left: 48px;
+}
+.sub-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.sub-menu_item {
+    display: inline-block;
+    box-sizing: inherit;
+    padding-right: 12px;
+    padding-left: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.buy-item {
+    display: flex;
+}
+.heart-icon {
+    padding: 16px;
+}
+.buy-icon {
+    padding-right: 48px;
+}
+.buy-item_search {
+    border-radius: 30px;
+    width: 180px;
+    height: 40px;
+    background-color: #F5F5F5;
+    border-top: white;
+    border-left: white;
+}
+.decrip {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sub-title {
+    background-color: #fff;
+    margin-left: 48px;
+    margin-right: 48px;
+    padding-top: 26px;
+    padding-bottom: 34px;
+    font-size: 28px;
+    /* position: fixed; */
+    width: 100%;
+}
+.sub-title_text {
+    position: fixed;
+}
+.decrip-intro {
+   
+}
+.decrip-intro_title {
+    text-align: center;
+    font-size: 28px;
+}
+.decrip-intro_body {
+    line-height: 24px;
+    width: 300px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+.bnt-join {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 11px 25px;
+    border-radius: 30px;
+    border: 1.5px solid transparent;
+    align-items: center;
+    background: #111;
+    color: #fff;
+    font-size: 20px;
+}
+.feature-title {
+    padding-left: 48px;
+    padding-top: 84px;
+    padding-bottom: 16px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+.feature-vjs{
+    padding-left: 48px;
+}
+.reponsive{ 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+}
+h1 {
+    font-size: 48px;
+}
+.reponsive-p{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    width: 532px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.text-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.benifit{
+
+}
+.product-container {
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 20px;
+    padding: 0 48px;
+}
+.produc-container_card {
+}
+.img-nike {
+    width: 428px;
+    height: 293px;
+}
+.img-decrip {
+    padding-top: 32px;
+    color: #111;
+}
+.img-decrip_body {
+    font-size: 30px;
+    padding-top: 12px;
+    padding-bottom: 32px;
+    color: #111;
+}
+.img-decrip_explore {
+    text-decoration: underline;
+    color: #111;
+}
+.media-container{
+    display: flex;
+    flex-direction: row;
+    row-gap: 30px;
+    column-gap: 30px;
+    text-align: center;
+    padding-top: 200px;
+}
+.media-container_item{
+    width: calc(33% - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.fa-solid{
+    font-size: 60px;
+    display: flex;
+    text-align: center;
+}
+.fa-suitcase{
+    margin: 0 auto;
+    display: block;
+}
+.fa-people-group {
+    margin: 0 auto;
+    display: block;
+}
+.fa-earth-americas {
+    margin: 0 auto;
+    display: block;
+}
+.media-card {
+    width: 256px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.media-title{
+     font-size: 20px;
+     padding: 20px 0;   
+}
+.media-decrip{
+    font-size: 16px;
+}
+.member {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 160px;
+}
+.member-app {
+    font-size: 16px;
+    color: #757575;
+}
+.member-download {
+    font-size: 32px;
+    padding-top: 10px;
+}
+.car-link {
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 20px;
+    padding: 10px 48px;
+}
+.car-link_img{
+    background-color: #F6F6F6;
+    height: 400px;
+    position: relative;
+}
+.link-img {
+    height: 320px;
+    width: 250px;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    bottom: 0px;
+    border: solid;
+    border-width: 10px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;
+    border-bottom: none;
+    border-color: #111;
+}
+.car-link_item{
+    width: calc(33% - 10px);
+}
+.car-link_item-title{
+    font-size: 16px;
+    padding-top: 36px;
+    padding-bottom: 16px;
+    color: #111;
+}
+.car-link_item-body{
+    font-size: 24px;
+    color: #111;
+
+}
+.car-link_item-bnt{
+    text-decoration: underline;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #111;
+}
+.nike-run{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+}
+.nike-run_img{
+    display: flex;
+    flex-direction: row;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.nike-run_1 {
+    width: 50%;
+}
+.nike-run_item{
+    text-align: center;
+    padding-top: 20px;
+}
+.nike-run_item-tile{
+    font-size: 50px;
+    color: #111;
+}
+.nike-run_item-body{
+    padding: 20px 0;
+    color: #111;
+    font-size: 16px;
+}
+.nike-run_item-bnt{
+    color: white;
+    font-size: 18px;
+    background-color: #111;
+    border-radius: 50px;
+    width: 220px;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    line-height: 40px;
+}
+.qestion{
+    padding-top: 50px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.frequently{
+    font-size: 32px;
+}
+.what{
+    padding-top: 48px;
+}
+.what-main{
+    font-size: 32px;
+}
+.what-body{
+    color: #757575;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.is{
+
+}
+.is-main{
+    font-size: 32px;
+}
+.is-body{
+    color: #757575;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.how{
+
+}
+.how-main{
+    font-size: 32px;
+}
+.how-body{
+    color: #757575;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+.whatr{
+
+}
+.whatr-main{
+    font-size: 32px;
+}
+.whatr-body{
+    color: #757575;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 48px;
+    padding-right: 48px;
+    position: relative;
+    padding-top: 84px;
+}
+.login-logo{
+
+}
+.login-title{
+
+}
+.login-bnt{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 20px;
+    position: absolute;
+    left: 592px;
+    bottom: 48px;
+}
+.login-bnt_join-us{
+    color: white;
+    background-color: #111;
+    border-radius: 30px;
+    height: 28px;
+    width: 92px;
+    font-size: 16px;
+    line-height: 28px;
+}
+.login-bnt_sign-in{
+    color: white;
+    background-color: #111;
+    border-radius: 30px;
+    height: 28px;
+    width: 92px;
+    font-size: 16px;
+    line-height: 28px;
+
+}
