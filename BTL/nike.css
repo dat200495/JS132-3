@@ -96,10 +96,10 @@
     font-size: 16px;
     line-height: 1.5;
 }
-.sub-menu-list {
+/* .sub-menu-list {
     display: flex;
     flex-direction: column;
-}
+} */
 .sub-menu_itemW {
     position: relative;
 }
@@ -125,12 +125,7 @@
     visibility: visible;
     opacity: 1;
 }
-/* .sub-menu_itemW-list-new {
-    display: flex;
-    flex-direction: column;
-    visibility: hidden;
-    opacity: 0;
-} */
+
 .buy-item {
     display: flex;
 }
