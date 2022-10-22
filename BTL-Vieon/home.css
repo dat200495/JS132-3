@@ -448,13 +448,14 @@ body {
     column-gap: 30px;
     position: relative;
 }
-.menu_container_thinhhanh-item-text:hover {
-    visibility: hidden;
-    opacity: 0;
+.menu_container_thinhhanh-item-text:hover ~ .menu_container_thinhhanh-item-detail{
+    visibility:visible;
+    opacity: 1;
 }
 .menu_container_thinhhanh-item-detail-text {
     color: gray;
     font-size: 14px;
+
 }
 .fa-sharp {
     display: flex;
