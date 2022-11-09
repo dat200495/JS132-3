@@ -4,6 +4,7 @@ body {
     background-color:#0F1011;
     position: relative;
     z-index: -100;
+
 }
 .header-container {
     background-image: linear-gradient(#0F1011 ,rgba(0, 0, 0, 0.348));
@@ -557,6 +558,7 @@ body {
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
+    padding-left: 20px;
 }
 .menu-container_trial{
     display: flex;
