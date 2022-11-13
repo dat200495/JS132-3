@@ -10,8 +10,9 @@ function numberOneTriangle(){
                     result +=" ";}
             };
         };
-        result += "\n";
+        
     };
+    result += "\n";
     document.getElementById('result').innerHTML = result;
     console.log(result);
 }
