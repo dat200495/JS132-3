@@ -1,31 +1,4 @@
 const container = document.querySelector(".menu-container_thinhhanh.list-phim");
-// let costumContentHtml = `
-// <a href="" class="menu-container_thinhhanh-list-phim">
-//     <img class="img-phim" src="https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/10/14/hunpdugz_1920x1080-tap18816e92c29345632c48c0012b1644a245_296_168.webp" alt="phim1" style="width: 207px;height: 117px">
-//     <div class="menu-container_thinhhanh-list-phim-detail">
-//         <i class="fa-sharp fa-solid fa-music" style="font-size: 10px;"></i>
-//         <div class="menu-container_thinhhanh-list-phim-detail-bnt">
-//             <button class="menu-container_thinhhanh-list-phim-detail-bnt_play">
-//                 <i class="fa-solid fa-play" style="color: black; font-size: 8px;"></i>
-//                 <div class="menu-container_thinhhanh-list-phim-detail-bnt_play-text">Xem Ngay</div>
-//             </button>
-//             <button class="menu-container_thinhhanh-list-phim-detail-bnt_decr">
-//                 <i class="fa-solid fa-info" style="font-size: 8px;"></i>
-//                 <div class="menu-container_thinhhanh-list-phim-detail-bnt_decr-text" style="color: white;">Chi tiết</div>
-//             </button>
-//             <button class="menu-container_thinhhanh-list-phim-detail-bnt_add">
-//                 <div class="menu-container_thinhhanh-list-phim-detail-bnt_add-icon" style="font-size: 8px;">+</div>
-//                 <div class="menu-container_thinhhanh-list-phim-detail-bnt_add-text">Danh sách</div>
-//             </button>
-//         </div>
-//         <div class="menu-container_thinhhanh-list-phim-detail-info">
-//             <div class="menu-container_thinhhanh-list-phim-detail-info-ctry">Quốc Gia</div>
-//             <div class="menu-container_thinhhanh-list-phim-detail-info-year">2022</div>
-//             <div class="menu-container_thinhhanh-list-phim-detail-info-season">1 Phần</div>
-//         </div>
-//     </div>
-// </a>
-// `;
 const listThinhHanh = [
     {
         link :"https://static2.vieon.vn/vieplay-image/thumbnail_v4/2022/10/14/hunpdugz_1920x1080-tap18816e92c29345632c48c0012b1644a245_296_168.webp",
@@ -145,22 +118,22 @@ function insertContent (query, html){
 insertContent(".list-thinh-hanh .menu-container_thinhhanh-list", getHTMLContent(listThinhHanh));
 insertContent(".list-moi-nhat .menu-container_thinhhanh-list", getHTMLContent(listMoiNhat));
 
-$(document).ready(function(){
-    $('.list-thinh-hanh .menu-container_thinhhanh-list').slick({
-        $('.menu-container_thinhhanh-list').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            fade: true,
-            asNavFor: '.slider-nav'
-          });
-          $('.slider-nav').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            asNavFor: '.slider-for',
-            dots: true,
-            centerMode: true,
-            focusOnSelect: true
-          });
-    });
-  });
+// $(document).ready(function(){
+//     $('.list-thinh-hanh .menu-container_thinhhanh-list').slick({
+//         $('.menu-container_thinhhanh-list').slick({
+//             slidesToShow: 1,
+//             slidesToScroll: 1,
+//             arrows: false,
+//             fade: true,
+//             asNavFor: '.slider-nav'
+//           });
+//           $('.slider-nav').slick({
+//             slidesToShow: 3,
+//             slidesToScroll: 1,
+//             asNavFor: '.slider-for',
+//             dots: true,
+//             centerMode: true,
+//             focusOnSelect: true
+//           });
+//     });
+//   });
